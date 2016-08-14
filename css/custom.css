@@ -1,3 +1,4 @@
+<<<<<<< HEAD
      body {
             padding-top: 40px;
         }
@@ -40,3 +41,47 @@
 
 
 
+=======
+     body {
+            padding-top: 40px;
+        }
+        
+        h3{
+            font-family: 'Oswald', sans-serif;
+        }
+
+.navbar-default {
+    
+    background-color:black;
+    border-color: gray;
+    color:black;
+}
+
+
+.navbar-default .navbar-brand {
+    
+    color:#7E40C9;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .acitve > a:focus {
+    color:#fff;
+    background-color: navy;
+}
+
+.btn-primary {
+    
+    background-color: aqua;
+    
+}
+
+
+
+
+
+
+
+
+>>>>>>> 9988f8821e487b32958b87e642eabfdce71b638e
