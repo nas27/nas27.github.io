@@ -58,7 +58,7 @@
             <div class="jumbotron">
                 <div class="container text-center">
 
-                    <img src="https://github.com/nas27/nas27.github.io/blob/master/img/profile_linkedin.jpg?raw=true" alt="Profile picture"></img>
+                    <img class="img-circle" src="https://github.com/nas27/nas27.github.io/blob/master/img/profile.jpg?raw=true" alt="Profile picture"></img>
 
 
                     <h1>Welcome to my portfolio.</h1>
@@ -134,13 +134,19 @@
             <div class="container">
                 <section>
                     <div class="page-header" id="contact">
-                    <h3>Contact</h3>
+                    <h3>Contact:</h3>
 
 
                     <form action="https://formspree.io/nastasiahyam@gmail.com" method="POST">
-                        <input type="text" name="name">
-                        <input type="email" name="_replyto">
-                        <input type="submit" value="Send">
+                        <fieldset>
+                            <div>
+                            Name:<input type="text" name="name" placeholder="Jane Doe" autofocus><br>
+                            Email:<input type="email" name="replyTo" placeholder="name@emailhost.com"><br>
+                            Message:<textarea type="message" name="message" placeholder="Hi"></textarea><br>
+                            <input type="submit" value="Send">
+                            </div>        
+
+                        </fieldset>
                     </form>
                     </div>
 
