@@ -34,17 +34,16 @@
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 55%;
 }
 
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+}
 
-
-
-
-
-
-
-=======
      body {
             padding-top: 40px;
         }
