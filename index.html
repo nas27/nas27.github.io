@@ -9,8 +9,8 @@
             <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
-
+            <link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
 
             <!-- Optional theme -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -26,9 +26,9 @@
 
             <!--NAV-->
             <nav class="navbar navbar-default navbar-fixed-top navbar-embossed">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -53,12 +53,14 @@
 
 
             </nav>
-
-            <!--JUMBOTRON HEADER-->
+            
+            <!--JUMBOTRON HEADER & BACKGROUND-->
+            <div class="bg"></div>
             <div class="jumbotron">
+            
                 <div class="container text-center">
-
-                    <img class="img-circle" src="https://github.com/nas27/nas27.github.io/blob/master/img/profile.jpg?raw=true" alt="Profile picture"></img>
+<!--https://github.com/nas27/nas27.github.io/blob/master/img/profile.jpg?raw=true-->
+                    <img class="img-circle" src="./img/profile.jpg" width="175px" height="167px" alt="Profile picture"></img>
 
 
                     <h1>Welcome to my portfolio.</h1>
@@ -75,7 +77,7 @@
             <div class="container">
                 <section>
                     <div class="page-header" id="about">
-                    <h3>About Me:</h3>
+                    <h2>About Me:</h2>
                     </div>
                     <div>
                         I've always been drawn to technology since I can remember. As a young child, the power of instant messaging/video chatting gave me a way to connect to my friends in ways I wasn't able to due to geographical constraints. I remember hacking together a website in elementary school & being overjoyed at the potential for self expression. This led
@@ -94,7 +96,7 @@
              <div class="container">
                 <section>
                     <div class="page-header" id="projects">
-                    <h3>Projects:</h3>
+                    <h2>Projects:</h2>
                     </div>
                     <div>
                         lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum  
@@ -114,7 +116,7 @@
             <div class="container">
                 <section>
                     <div class="page-header" id="resume">
-                    <h3>Resume:</h3>
+                    <h2>Resume:</h2>
                     </div>
                     <div>
                         <a href="resume/Hyam_Nastasia_Resume.pdf">Click to download a copy of my CV.</a>
@@ -130,7 +132,7 @@
             <div class="container">
                 <section>
                     <div class="page-header" id="contact">
-                        <h3>Get in touch:</h3>
+                        <h2>Get in touch:</h2>
                         
                     <form class="form-horizontal" action="https://formspree.io/nastasiahyam@gmail.com" method="POST">
                         <fieldset>
@@ -138,14 +140,14 @@
                             <div class="form-group">
                                 <label for="inputName" class="col-lg-2 control-label">Name:</label>
                                     <div class="col-lg-10">
-                                        <input type="text" class="form-control" id="inputName" placeholder="Jane Doe" autofocus>
+                                        <input type="text" class="form-control" name="who" id="inputName" placeholder="Jane Doe">
                                     </div>
                             </div>
                             
                             <div class="form-group">
                                 <label for="inputEmail" class="col-lg-2 control-label">Email:</label>
                                     <div class="col-lg-10">
-                                        <input type="text" class="form-control" id="inputEmail" placeholder="jane@host.com">
+                                        <input type="text" class="form-control" name="replyTo" id="inputEmail" placeholder="jane@host.com">
                                     </div>
                             </div>
                             <div class="form-group">
@@ -153,8 +155,12 @@
                             <div class="col-lg-10">
                                 <textarea class="form-control" name="message" rows="3" id="textArea">Hi Nastasia,</textarea>
                                 <br>
-                                <input class="btn" type="submit" value="Send">
-                            </div>
+                                
+                                <div class="form-group">
+                                    <div class="col-lg-10">
+                                        <button class="btn" type="submit" value="Send">Send</button>
+                                    </div>
+                                </div>
                         </fieldset>
                     </form>
         
@@ -172,11 +178,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="footer-col col-md-4">
-                            <h3>Available</h3>
+                            <h2>Available</h2>
                             <p>for coffee chats scheduled through <a href="https://www.tenthousandcoffees.com/">10KCoffees</a> in downtown Toronto.<br></p>
                         </div>
                         <div class="footer-col col-md-4">
-                            <h3>On the Web</h3>
+                            <h2>On the Web</h2>
                             <ul class="list-inline">
                                 <li>
                                     <a href="http://www.nastasiahyam.tumblr.com" class="btn-social btn-outline">Tumblr</a>
@@ -192,7 +198,7 @@
                             </ul>
                         </div>
                         <div class="footer-col col-md-4">
-                            <h3>Thanks</h3>
+                            <h2>Thanks</h2>
                             <p> for stopping by.</p>
                         </div>
                     </div>
