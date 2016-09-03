@@ -8,13 +8,20 @@
 
             <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+            
+            <!--JQUERY JavaScript library-->
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            
+            <!--Import fonts-->    
             <link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
             <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
 
             <!-- Optional theme -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
             <link rel="stylesheet" type="text/css" href="css/custom.css">
+            
+            <!--Link to my custom JQuery/JS internal file-->
+            <script type="text/javascript" src="./js/scripts.js"></script>
 
         </head>
 
@@ -22,17 +29,17 @@
 
 
 
-        <body>
+        <body id="homePage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
             <!--NAV-->
-            <nav class="navbar navbar-default navbar-fixed-top navbar-embossed">
+            <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+            
                         </button>
 
                         <a href="#" class="navbar-brand">Nastasia M. Hyam</a>
@@ -41,10 +48,10 @@
                     <!--Headers-->
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#about">About Me</a></li>
-                            <li><a href="#projects">My Projects</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
                             <li><a href="#resume">Resume</a></li>
-                            <li><a href="#contact">Get In Touch</a></li>
+                            <li><a href="#contact">Contact</a></li>
 
                         </ul>
 
@@ -59,7 +66,7 @@
             <div class="jumbotron">
             
                 <div class="container text-center">
-<!--https://github.com/nas27/nas27.github.io/blob/master/img/profile.jpg?raw=true-->
+
                     <img class="img-circle" src="./img/profile.jpg" width="175px" height="167px" alt="Profile picture"></img>
 
 
@@ -105,9 +112,12 @@
                     <div class="col-sm-4">
                       <div class="thumbnail">
                         <img src="img/bikeshare.PNG" alt="BikeShare Web Application">
-                        <p><strong><a href="http://www.mobile.sheridanc.on.ca/~kwonf/bikeshare/index.html">BikeShare Web App</strong></a></p>
-                        <p>Prototype for a bikesharing program for Mobile Web Application course.</p>
-                        <br/>Group Members: <i>Myself</i>, Foster Kwon, John Lee, Gary McKibbon
+                          <p><strong>BikeShare Web App</strong></p>
+                            <a href="http://www.mobile.sheridanc.on.ca/~kwonf/bikeshare/index.html">Click</a> here for live site.
+                          <p><u>Login Credentials:</u></br> <b>Username:</b> sant <b>Password:</b> bestprof</p>
+                        <p>Prototype for a bikesharing program using Google Maps to track available bikes by location.</p>
+                        <p>Skills Used: HTML, CSS, JavaScript, AJAX, JSON, Google Maps API, Adobe Photoshop</p>
+                        <p><a href="https://github.com/nas27/bikeshare/tree/master/bikeshare">GitHub repository</a></p>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -115,18 +125,21 @@
                         <img class="thumbnail   " src="img/android.PNG" alt="Android Application">
                         <p><strong>Android Application</strong></p>
                         <p>Lists provinces & corresponding territories.</p>
-                          <br/> Individual Assignment
+                        <p>Skills Used: Java, XML, Android Studio/SDK</p>
+                        <p><a href="https://github.com/nas27/provinces">GitHub repository</a></p>
                       </div>
                     </div>
                     <div class="col-sm-4">
                       <div class="thumbnail">
                         <img src="img/studentOrganizer.PNG" alt="C# .NET Application">
                         <p><strong>Student Course Tracker</strong></p>
-                        <p>ALlows student to track their coursework and corresponding grades.</p>
-                        <br/>Group Members: <i>Myself</i>, Bilal Shaikh, Paul Jasek, Chris Di Conza, Tyshaun Jones-Tyrell
+                        <p>Allows student to track their coursework and corresponding grades.</p>
+                        <p>Skills used: C#, .NET, Visual Studio</p>
+                        <p><a href="https://github.com/nas27/student-tracker">GitHub repository</a></p>
                       </div>
                     </div>
                 </div>
+                        <p>Other samples available upon request.</p>
 
                 </section>
 
@@ -138,7 +151,7 @@
                     <h2>Resume:</h2>
                     </div>
                     <div>
-                        <a href="resume/Hyam_Nastasia_Resume.pdf">Click to download a copy of my CV.</a>
+                        <a href="resume/Hyam_Nastasia_Resume.pdf">Click for .PDF resume.</a>
                         <br/>
                         <b>Note: </b>Unofficial Transcripts/Course Lists Available Upon Request   
                     </div>
@@ -204,7 +217,7 @@
                             <h2>On the Web</h2>
                             <ul class="list-inline">
                                 <li>
-                                    <a href="http://www.nastasiahyam.tumblr.com" class="btn-social btn-outline">Tumblr</a>
+                                    <a href="https://vimeo.com/nhyam" class="btn-social btn-outline">Vimeo</a>
                                 </li>
 
                                 <li>
@@ -213,12 +226,11 @@
                                 <li>
                                     <a href="https://ca.linkedin.com/in/nastasia-hyam-57453556" target="_blank" class="btn-social btn-outline">LinkedIn</i></a>
                                 </li>
-
                             </ul>
                         </div>
                         <div class="footer-col col-md-4">
-                            <h2>Thanks</h2>
-                            <p> for stopping by.</p>
+                            <h2>Thank you</h2>
+                            <p>for stopping by.</p>
                         </div>
                     </div>
                 </div>

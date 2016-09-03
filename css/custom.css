@@ -21,26 +21,48 @@ p {
 	line-height: 25px;
 }
 
-.navbar-default {
-    
-    background-color:black;
-    border-color: gray;
-    color:black;
+
+
+
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #000000;
+    z-index: 9999;
+    border: 1px;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 5px;
+    border-radius: 1px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #362D3C !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color:  !important;
+    background-color: #D3B1ED !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #9179A2 !important;
 }
 
 
-.navbar-default .navbar-brand {
-    
-    color:#7E40C9;
 
-}
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .acitve > a:focus {
-    color:#fff;
-    background-color: navy;
-}
+
+
+
+
+
+
+
+
+
 
 .btn-primary {
     
