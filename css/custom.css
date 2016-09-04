@@ -57,7 +57,7 @@ background: url('/img/bg.jpg') center center;
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color:  !important;
-    background-color: #D3B1ED !important;
+    background-color: blanchedalmond !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -88,7 +88,7 @@ background: url('/img/bg.jpg') center center;
 .navbar-default {
     
     background-color:black;
-    border-color: gray;
+    border-color: midnightblue;
     color:black;
 }
 
